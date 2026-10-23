@@ -8,7 +8,7 @@ def index():
 
 @app.route('/servicios')
 def servicios():
-    return render_template('servicios.html')
+    return render_template('servicios.html', titulo='Servicios', mensaje='Bienvenido a la página de servicios de UDl-ICO')
 
 @app.route('/contacto')
 def contacto():
